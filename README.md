@@ -1,5 +1,4 @@
-
-# YaYa Wallet Webhook Endpoint
+## YaYa Wallet Webhook Endpoint
 
 ## Overview
 
