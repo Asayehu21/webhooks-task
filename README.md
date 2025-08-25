@@ -27,7 +27,7 @@ This Django project implements a webhook endpoint that receives and processes tr
     - pip install -r requirements.txt
 
 
-4. **Create a `.env` file** in the project root:
+4. **Create a `.env` file** in the project root (same level as `manage.py`):
      **Set your webhook secret key in '.env'**
       - YAYA_WEBHOOK_SECRET = your_shared_secret_here
 
@@ -36,18 +36,18 @@ This Django project implements a webhook endpoint that receives and processes tr
    - python manage.py makemigrations
    - python manage.py migrate
    
-##   Run the server:
+##  Run the server:
  - python manage.py runserver
     
     
-## The webhook endpoint available at:
+##  The webhook endpoint available at:
  - https://localhost:8000/webhook/yaya/ 
   
-## Generating Signature For Testing
+##  Generating Signature for Testing
  - https://localhost:8000/webhook/yaya/generate-signature/
 
 
-## How to Test
+## cHow to Test
 - Use a tool like Postman or Thunder Client.
 
 - Prepare a JSON payload including a unique event_id and transaction data.
