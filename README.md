@@ -47,7 +47,7 @@ This Django project implements a webhook endpoint that receives and processes tr
  - https://localhost:8000/webhook/yaya/generate-signature/
 
 
-## cHow to Test
+## How to Test
 - Use a tool like Postman or Thunder Client.
 
 - Prepare a JSON payload including a unique event_id and transaction data.
