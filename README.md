@@ -1,4 +1,4 @@
-## YaYa Wallet Webhook Endpoint
+##  Webhook Endpoint Manual
 
 ## Overview
 
@@ -27,8 +27,8 @@ This Django project implements a webhook endpoint that receives and processes tr
     - pip install -r requirements.txt
 
 
-4. **Create a `.env` file** in the project root (same level as `manage.py`):
-     **Set your webhook secret in '.env'**
+4. **Create a `.env` file** in the project root:
+     **Set your webhook secret key in '.env'**
       - YAYA_WEBHOOK_SECRET = your_shared_secret_here
 
 ##  Apply migrations:
@@ -41,11 +41,14 @@ This Django project implements a webhook endpoint that receives and processes tr
     
     
 ## The webhook endpoint available at:
- - http://localhost:8000/webhook/yaya/ 
+ - https://localhost:8000/webhook/yaya/ 
+  
+## Generating Signature For Testing
+ - https://localhost:8000/webhook/yaya/generate-signature/
 
 
 ## How to Test
-- Use a tool like Postman or Vsc Thunder Client.
+- Use a tool like Postman or Thunder Client.
 
 - Prepare a JSON payload including a unique event_id and transaction data.
 

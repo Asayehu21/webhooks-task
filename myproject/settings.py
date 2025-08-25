@@ -123,3 +123,21 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Add your webhook secret for signature verification
 # YAYA_WEBHOOK_SECRET = 'my_very_secret_key_12345'
+
+# # Redirect all HTTP requests to HTTPS
+# SECURE_SSL_REDIRECT = True
+
+# # Mark session cookies as secure (sent only over HTTPS)
+# SESSION_COOKIE_SECURE = True
+
+# # Mark CSRF cookies as secure (sent only over HTTPS)
+# CSRF_COOKIE_SECURE = True
+
+# # HTTP Strict Transport Security (HSTS) settings
+# SECURE_HSTS_SECONDS = 3600  # 1 hour, increase for production
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
+
+# # If behind a proxy or load balancer that handles SSL termination, tell Django
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
