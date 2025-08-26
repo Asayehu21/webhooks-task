@@ -1,4 +1,5 @@
 ##  Webhook Endpoint Manual
+  ## Read and understand properly each and every line of the manual otherwise, the task is not work properly.
 
   **I did the task by django because, I so passionate the django.**
 
@@ -41,7 +42,7 @@ This Task implements a webhook endpoint that receives and processes transaction 
 ##  Run the server:
  - python manage.py runserver
     
-    
+**if you will use local server it is not work the project because it set by https protocol, so comment it,  if statement or condition under views.py file in the myapp directory, then use it.**
 ##  The webhook endpoint available at:
  - https://localhost:8000/webhook/yaya/ 
   
