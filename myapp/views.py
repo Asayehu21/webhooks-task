@@ -82,7 +82,7 @@ def webhook(request):
     if not signature:
         return HttpResponseForbidden('Missing Signature')
 
-    # Shared secret for webhook verification (set in .env variable)
+    # Shared secret key for webhook verification (set in .env variable)
     secret = settings.YAYA_WEBHOOK_SECRET.encode()
 
     # Verify the webhook signature using HMAC SHA256

@@ -1,8 +1,10 @@
 ##  Webhook Endpoint Manual
 
+  **I did the task by django because, I so passionate the django.**
+
 ## Overview
 
-This Django project implements a webhook endpoint that receives and processes transaction notifications from YaYa Wallet. The endpoint verifies webhook requests using HMAC SHA256 signatures, prevents replay attacks via event ID tracking, and rejects requests older than 5 minutes to ensure security and freshness of data.
+This Task implements a webhook endpoint that receives and processes transaction notifications from YaYa Wallet and generate the signature. The endpoint verifies webhook requests using HMAC SHA256 signatures, prevents replay attacks via event ID tracking, and rejects requests older than 5 minutes to ensure security and freshness of data.
 
 ## Assumptions
 
